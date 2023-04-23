@@ -27,14 +27,16 @@
         </strong>
     </p>
     <?php
-    $texto = "Texto desde php";
-    $numero = 12;
-    $numero2 = 13;
-
-    echo "Mensaje: $texto <br>";
-    //Concatenación
-    echo "Mensaje:" . $texto . " " . $numero . " " . $numero2;
-
+    include('./variables.php')
+    ?>
+    <hr>
+    <p>
+        <strong>
+            Variable local y variable global
+        </strong>
+    </p>
+    <?php
+    include('./variableGlobalLocal.php');
     ?>
 </body>
 
