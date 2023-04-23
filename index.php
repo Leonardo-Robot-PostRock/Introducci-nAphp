@@ -10,6 +10,12 @@
     <p>Mensaje desde php</p>
     <?php
     echo 'Mensaje de php utilizando echo';
+
+    //comentario desde php
+    #comentario desde php
+
+    /* comentario desde php
+     */
     ?>
 </body>
 </html>
