@@ -48,7 +48,14 @@
         </strong>
     </p>
     <?php
-    include('./staticVariable.php'); 
+    include('./staticVariable.php');
+    ?>
+    <hr>
+    <p>
+        <strong>Maneras de mostrar mensajes en php</strong>
+    </p>
+    <?php
+    include('./formasMostrarMensaje.php')
     ?>
 </body>
 
