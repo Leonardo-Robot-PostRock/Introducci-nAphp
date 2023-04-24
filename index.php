@@ -51,11 +51,22 @@
     include('./staticVariable.php');
     ?>
     <hr>
+
+    <!-- Maneras de imprimir un mensaje en PHP -->
+
     <p>
         <strong>Maneras de mostrar mensajes en php</strong>
     </p>
     <?php
     include('./formasMostrarMensaje.php')
+    ?>
+
+    <hr>
+
+    <p><strong>Tipos de variables</strong></p>
+    <?php
+    
+        include('./tiposVariable.php');
     ?>
 </body>
 
