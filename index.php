@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP</title>
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
     <!-- Mensajes en PHP -->
-    <p>Mensaje desde php</p>
+    <h1>Mensaje desde php</h1>
     <?php
     include('./mensajes.php');
     ?>
@@ -19,11 +19,11 @@
 
     <!-- Variables en PHP -->
 
-    <p>
+    <h1>
         <strong>
             Variables en php
         </strong>
-    </p>
+    </h1>
     <?php
     include('./variables.php');
     ?>
@@ -31,11 +31,11 @@
 
     <!-- VARIABLE GLOBAL Y LOCAL -->
 
-    <p>
+    <h1>
         <strong>
             Variable local y variable global
         </strong>
-    </p>
+    </h1>
     <?php
     include('./variableGlobalLocal.php');
     ?>
@@ -43,11 +43,11 @@
 
     <!-- VARIABLE ESTATICA -->
 
-    <p>
+    <h1>
         <strong>
             Static variable
         </strong>
-    </p>
+    </h1>
     <?php
     include('./staticVariable.php');
     ?>
@@ -55,19 +55,32 @@
 
     <!-- Maneras de imprimir un mensaje en PHP -->
 
-    <p>
+    <h1>
         <strong>Maneras de mostrar mensajes en php</strong>
-    </p>
+    </h1>
     <?php
     include('./formasMostrarMensaje.php')
     ?>
 
     <hr>
 
-    <p><strong>Tipos de variables</strong></p>
+    <h1><strong>Tipos de variables</strong></h1>
     <?php
-    
-        include('./tiposVariable.php');
+
+    include('./tiposVariable.php');
+    ?>
+    <hr>
+    <!-- Funciones para trabajar con cadenas  -->
+    <h1>Funciones para trabajar con cadenas</h1>
+    <?php
+    include('./funcionesParaTrabajarCadenas.php');
+    ?>
+
+    <hr>
+    <!-- Funciones para trabajar con números  -->
+    <h1>Funciones para trabajar con números</h1>
+    <?php
+    include('./funcionesParaTrabajarNumeros.php')
     ?>
 </body>
 
