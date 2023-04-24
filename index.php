@@ -9,17 +9,14 @@
 </head>
 
 <body>
+    <!-- Mensajes en PHP -->
     <p>Mensaje desde php</p>
     <?php
-    echo 'Mensaje de php utilizando echo';
-
-    //comentario desde php
-    #comentario desde php
-
-    /* comentario desde php
-     */
+    include('./mensajes.php');
     ?>
     <hr>
+
+    <!-- Variables en PHP -->
 
     <p>
         <strong>
@@ -27,9 +24,12 @@
         </strong>
     </p>
     <?php
-    include('./variables.php')
+    include('./variables.php');
     ?>
     <hr>
+
+    <!-- VARIABLE GLOBAL Y LOCAL -->
+
     <p>
         <strong>
             Variable local y variable global
@@ -37,6 +37,18 @@
     </p>
     <?php
     include('./variableGlobalLocal.php');
+    ?>
+    <hr>
+
+    <!-- VARIABLE ESTATICA -->
+
+    <p>
+        <strong>
+            Static variable
+        </strong>
+    </p>
+    <?php
+    include('./staticVariable.php'); 
     ?>
 </body>
 
