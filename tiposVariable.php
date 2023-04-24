@@ -34,7 +34,3 @@ echo "<br>";
 $dias = array("lunes", "martes", "miércoles");
 
 var_dump($dias);
-
-//Funciones para trabajar con cadenas --------------------------------
-
-include('./funcionesParaTrabajarCadenas.php');
