@@ -20,6 +20,7 @@ echo $numero . " " . var_dump(is_int($numero)) . "<br>";
 echo $numero2 . " " . var_dump(is_int($numero2));
 
 // FUNCION is_float() ---------------------------------------------
+
 echo "<hr>";
 
 $numero3 = 19.21;
@@ -36,6 +37,7 @@ echo  "<br>";
 echo $numero3 . " " . var_dump(is_float($numero3)) . "<br>";
 
 // FUNCION is_double() ---------------------------------------------
+
 echo "<hr>";
 
 $numero4 = 1943221.123234231;
@@ -86,3 +88,27 @@ echo "<br>Ejemplo con is_finite(): 32e985 <br>";
 echo var_dump(is_finite($numero6));
 echo "<br>Ejemplo con is_infinite(): 32e985 <br>";
 echo var_dump(is_infinite($numero6));
+
+
+//Función is_numeric() -----------------------------------------------------------
+echo "<hr>";
+echo "<p>Función is_numeric() con var_dump()</p>";
+
+
+echo "<br>";
+$numero7 = 25;
+echo "Número: " . $numero7 . "<br>";
+echo var_dump(is_numeric($numero7));
+echo "<br>";
+$numero8 = "25";
+echo "Número string: " . $numero8 . "<br>";
+echo var_dump(is_numeric($numero8));
+echo "<br>";
+$numero9 = $numero7 + $numero8;
+echo "Suma de números un número: $numero7 con un texto: '$numero8' <br> Resultado:  $numero9 ". "<br>";
+echo var_dump(is_numeric($numero9));
+echo "<br>";
+$numero10 = "Hola";
+echo "Texto: " . $numero10 . "<br>";
+echo var_dump(is_numeric($numero10));
+echo "<p>PD: No se recomienda usar is_numeric()</p>";
