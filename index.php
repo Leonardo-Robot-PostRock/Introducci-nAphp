@@ -123,16 +123,31 @@
     ?>
 
     <!-- FUNCION abs() valor absoluto -->
-    <h1>Función abs()</h1>
+    
+    <h1>Función abs() Valor absoluto</h1>
     <?php
     include('./funcionAbs.php');
     ?>
 
     <!-- FUNCION sqrt() raíz cuadrada-->
-    <h1>Función sqrt()</h1>
+    <h1>Función sqrt() Raíz cuadrada</h1>
     <?php
     include('./funcionRaizCuadrada.php');
     ?>
+
+    <!-- FUNCION round() truncar numero-->
+    <h1>Función round() Truncar n&uacute;mero</h1>
+    <?php
+    include('./funcionRound.php');
+    ?>
+
+    
+    <!-- FUNCION rand() número aleatorio -->
+    <h1>Función rand() Número aleatorio</h1>
+    <?php
+    include('./funcionRand.php');
+    ?>
+
 
 </body>
 
