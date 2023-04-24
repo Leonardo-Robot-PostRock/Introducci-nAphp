@@ -15,6 +15,6 @@
         echo "Valor de la variable local: ".$valor;
     }  
     mostrar();
-    echo "<p><strong>Mostrará error en linea 19 porque no esta declarada en el scope global:</strong></p>";
+    echo "<p><strong>Mostrará error en linea 19 porque la variable no esta declarada en el scope global:</strong></p>";
     echo 'Valor de la variable'. $valor;
 ?>
