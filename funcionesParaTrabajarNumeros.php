@@ -105,7 +105,7 @@ echo "Número string: " . $numero8 . "<br>";
 echo var_dump(is_numeric($numero8));
 echo "<br>";
 $numero9 = $numero7 + $numero8;
-echo "Suma de números un número: $numero7 con un texto: '$numero8' <br> Resultado:  $numero9 ". "<br>";
+echo "Suma de números, un número: $numero7 con un texto: '$numero8' <br> Resultado:  $numero9 ". "<br>";
 echo var_dump(is_numeric($numero9));
 echo "<br>";
 $numero10 = "Hola";
