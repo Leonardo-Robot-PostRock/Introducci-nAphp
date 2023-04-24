@@ -10,7 +10,9 @@
 </head>
 
 <body>
+
     <!-- Mensajes en PHP -->
+
     <h1>Mensaje desde php</h1>
     <?php
     include('./mensajes.php');
@@ -59,29 +61,79 @@
         <strong>Maneras de mostrar mensajes en php</strong>
     </h1>
     <?php
-    include('./formasMostrarMensaje.php')
+    include('./formasMostrarMensaje.php');
     ?>
 
     <hr>
 
     <h1><strong>Tipos de variables</strong></h1>
+
     <?php
 
     include('./tiposVariable.php');
     ?>
     <hr>
+
     <!-- Funciones para trabajar con cadenas  -->
+
     <h1>Funciones para trabajar con cadenas</h1>
     <?php
     include('./funcionesParaTrabajarCadenas.php');
     ?>
 
     <hr>
+
     <!-- Funciones para trabajar con números  -->
+
     <h1>Funciones para trabajar con números</h1>
     <?php
-    include('./funcionesParaTrabajarNumeros.php')
+    include('./funcionesParaTrabajarNumeros.php');
     ?>
+
+    <!-- Parseo de variables -->
+
+    <hr>
+    <h1>Parseo de variables</h1>
+    <?php
+    include('./parseoDeVariables.php');
+    ?>
+
+    <!-- NUMERO PI -->
+
+    <hr>
+    <h1>Número PI</h1>
+    <?php
+    include('./funcionPi.php');
+    ?>
+
+    <!-- FUNCION min() regresa el número menor -->
+
+    <hr>
+    <h1>Función min()</h1>
+    <?php
+    include('./funcionMin.php');
+    ?>
+
+    <!-- FUNCION max() regresa el número mayor -->
+
+    <hr>
+    <h1>Función max()</h1>
+    <?php
+    include('./funcionMax.php');
+    ?>
+
+    <!-- FUNCION abs() valor absoluto -->
+    <h1>Función abs()</h1>
+    <?php
+    include('./funcionAbs.php');
+    ?>
+
+    <!-- FUNCION sqrt() raíz cuadrada-->
+    <h1>Función sqrt()</h1>
+    <?php
+    include('./funcionRaizCuadrada.php');
+    ?>
+
 </body>
 
 </html>
