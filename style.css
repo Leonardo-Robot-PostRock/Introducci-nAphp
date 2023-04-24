@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 10px;
+    background-color: gray;
+}
+
+p {
+    color: darkgreen;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    font-weight: 600;
+    width: max-content;
+}
+.strpos {
+    letter-spacing: 3px;
+}
