@@ -1,3 +1,3 @@
 <?php
-echo "Mensaje <br>";
+echo "Mensaje con echo <br>";
 print "Mensaje con print";
