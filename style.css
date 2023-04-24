@@ -8,10 +8,14 @@
 p {
     color: darkgreen;
     letter-spacing: 1px;
-    text-decoration: underline;
     font-weight: 600;
     width: max-content;
 }
+
+h1 {
+    color: darkmagenta;
+}
+
 .strpos {
     letter-spacing: 3px;
 }
