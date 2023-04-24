@@ -9,7 +9,6 @@ echo "Numero de caracteres " . strlen($cadena);
 // Mostrar cantidad de palabras --------------------------------------------------
 
 $cadena2 = "mensaje de texto";
-echo "<hr>";
 echo "<br><p> La función <strong>str_word_count()</strong> cuenta la cantidad de palabras de una cadena </p><br>";
 
 echo "Número de palabras " . str_word_count($cadena2);
