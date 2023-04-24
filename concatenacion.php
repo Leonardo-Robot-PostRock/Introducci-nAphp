@@ -1,5 +1,5 @@
 <?php
-    echo "Mensaje: $texto <br>";
+    echo "<p>Mensaje</p>: $texto <br>";
     //Concatenación
-    echo "Mensaje:" . $texto . " " . $numero . " " . $numero2; 
+    echo "<p>Mensaje:</p>" . $texto . " " . $numero . " " . $numero2; 
 ?>
