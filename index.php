@@ -147,6 +147,12 @@
     <?php
     include('./funcionRand.php');
     ?>
+    
+    <!-- TIPOS OPERADORES -->
+    <h1>Tipos de operadores</h1>
+    <?php
+    include('./operadores.php');
+    ?>
 
 
 </body>
